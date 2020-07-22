@@ -8,8 +8,8 @@ class Location extends React.Component {
     super(props);
     this.autenticaPosicao = this.autenticaPosicao.bind(this);
     this.pegaDados = this.pegaDados.bind(this);
-    this.codigoLinha = this.codigoLinha.bind(this);
-    this.pegaParada = this.pegaParada.bind(this);
+    // this.codigoLinha = this.codigoLinha.bind(this);
+    // this.pegaParada = this.pegaParada.bind(this);
     
     this.state = {
       data: [],
@@ -51,10 +51,6 @@ class Location extends React.Component {
 
   codigoLinha() {
     const codigoLinha = this.props.codigoLinha;
-  }
-
-  pegaParada(e) {
-    this.setState({ parada: e.target.value });
   }
 
   autenticaPosicao() {

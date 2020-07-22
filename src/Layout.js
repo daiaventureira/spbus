@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import OlhoVivo from "./OlhoVivo";
+import Linha from "./Linha";
 import Location from "./Location";
 import Parada from "./Parada";
 import "./index.scss";
@@ -17,7 +17,7 @@ class Layout extends Component {
             </div>
             <div className="scroll-linha">
               {" "}
-              <OlhoVivo key={OlhoVivo.id}  />
+              <Linha key={Linha.id}  />
             </div>
           </div>
           <Location key={Location.id} />

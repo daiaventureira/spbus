@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class OlhoVivo extends Component {
+class Linha extends Component {
   constructor(props) {
     super(props);
     this.autentica = this.autentica.bind(this);
@@ -98,4 +98,4 @@ class OlhoVivo extends Component {
     );
   }
 }
-export default OlhoVivo;
+export default Linha;
